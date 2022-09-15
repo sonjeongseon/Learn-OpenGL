@@ -80,7 +80,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\OpenGL\include;C:\glm;$(IncludePath)</IncludePath>
+    <IncludePath>C:\OpenGL\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\OpenGL\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -146,7 +146,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\..\OpenGL\glad\src\glad.c" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="coordinates.cpp" />
+    <ClCompile Include="hellotriangle.cpp" />
     <ClCompile Include="hellowindow.cpp" />
+    <ClCompile Include="shaders.cpp" />
+    <ClCompile Include="textures.cpp" />
+    <ClCompile Include="transformations.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="camera.fs" />
+    <None Include="camera.vs" />
+    <None Include="coordinate_systems.fs" />
+    <None Include="coordinate_systems.vs" />
+    <None Include="shader.fs" />
+    <None Include="shader.vs" />
+    <None Include="texture.vs" />
+    <None Include="transform.fs" />
+    <None Include="transform.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="texture.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

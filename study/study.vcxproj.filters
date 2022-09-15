@@ -13,13 +13,92 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\chapter2">
+      <UniqueIdentifier>{7626f0b5-e3bb-4b9e-880a-ce50500db5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter3">
+      <UniqueIdentifier>{6968a6ae-bcc3-47ac-bee1-d1c668aed8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter2\1.window">
+      <UniqueIdentifier>{a89f47cf-70e9-467f-bad4-72627730c9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter2\2.triangle">
+      <UniqueIdentifier>{79ca8d33-0ffe-4e63-a432-34a4bb5f8a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter2\3.shaders">
+      <UniqueIdentifier>{0d3f6429-5c4f-477a-ae69-baa8da9978aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter2\4.textures">
+      <UniqueIdentifier>{000473dd-2ecb-4b97-9113-dcf69794a81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter2\5.transformations">
+      <UniqueIdentifier>{50536280-5650-4650-ac7e-1794456ec163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter2\6.coordinates">
+      <UniqueIdentifier>{20607d23-08b7-4850-8157-cd21444bf646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter2\7.cameras">
+      <UniqueIdentifier>{09a39d17-c34d-4db6-ae9d-82e0507d4154}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\..\OpenGL\glad\src\glad.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="hellowindow.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\chapter2\1.window</Filter>
     </ClCompile>
+    <ClCompile Include="hellotriangle.cpp">
+      <Filter>소스 파일\chapter2\2.triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders.cpp">
+      <Filter>소스 파일\chapter2\3.shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="textures.cpp">
+      <Filter>소스 파일\chapter2\4.textures</Filter>
+    </ClCompile>
+    <ClCompile Include="transformations.cpp">
+      <Filter>소스 파일\chapter2\5.transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinates.cpp">
+      <Filter>소스 파일\chapter2\6.coordinates</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>소스 파일\chapter2\7.cameras</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.vs">
+      <Filter>소스 파일\chapter2\3.shaders</Filter>
+    </None>
+    <None Include="shader.fs">
+      <Filter>소스 파일\chapter2\3.shaders</Filter>
+    </None>
+    <None Include="texture.vs">
+      <Filter>소스 파일\chapter2\4.textures</Filter>
+    </None>
+    <None Include="transform.vs">
+      <Filter>소스 파일\chapter2\5.transformations</Filter>
+    </None>
+    <None Include="transform.fs">
+      <Filter>소스 파일\chapter2\5.transformations</Filter>
+    </None>
+    <None Include="coordinate_systems.vs">
+      <Filter>소스 파일\chapter2\6.coordinates</Filter>
+    </None>
+    <None Include="coordinate_systems.fs">
+      <Filter>소스 파일\chapter2\6.coordinates</Filter>
+    </None>
+    <None Include="camera.vs">
+      <Filter>소스 파일\chapter2\7.cameras</Filter>
+    </None>
+    <None Include="camera.fs">
+      <Filter>소스 파일\chapter2\7.cameras</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="texture.fs">
+      <Filter>소스 파일\chapter2\4.textures</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
