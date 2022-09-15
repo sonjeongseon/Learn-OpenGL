@@ -51,7 +51,7 @@ int main()
 
 
     // vertex shader compile
-
+    
     unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER); // shader 생성, (생성할 shader 유형)
     // glShaderSource : 
     // 파라미터 1 : shader 객체
@@ -169,7 +169,7 @@ int main()
 
         // object 그리기
         glUseProgram(shaderProgram);
-        glBindVertexArray(VAO);
+        glBindVertexArray(VAO); 
         // glDrawArrays : 현재 활성화된 shader, 이전에 정의된 vertex 속성 구성, VBO vertex data 사용해 primitive 그림
         // 파라미터 1 : OpenGL primitive 유형 지정
         // 파라미터 2 : vertex 배열 시작 index 지정
