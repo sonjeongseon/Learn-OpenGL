@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\chapter2\7.cameras">
       <UniqueIdentifier>{09a39d17-c34d-4db6-ae9d-82e0507d4154}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter3\color">
+      <UniqueIdentifier>{68b2799e-ea77-4769-ae6c-eec9d0c8e6ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\..\OpenGL\glad\src\glad.c">
@@ -65,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="camera.cpp">
       <Filter>소스 파일\chapter2\7.cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>소스 파일\chapter3\color</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +100,18 @@
     </None>
     <None Include="camera.fs">
       <Filter>소스 파일\chapter2\7.cameras</Filter>
+    </None>
+    <None Include="colors.vs">
+      <Filter>소스 파일\chapter3\color</Filter>
+    </None>
+    <None Include="colors.fs">
+      <Filter>소스 파일\chapter3\color</Filter>
+    </None>
+    <None Include="light_cube.vs">
+      <Filter>소스 파일\chapter3\color</Filter>
+    </None>
+    <None Include="light_cube.fs">
+      <Filter>소스 파일\chapter3\color</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
